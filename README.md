@@ -1,43 +1,43 @@
-# ?? Production-Ready AWS DevOps Deployment
+#  Production-Ready AWS DevOps Deployment
 
 A production-style DevOps project demonstrating the deployment, automation, monitoring, and performance testing of a Flask web application on AWS.
 
-## ?? Project Overview
+##  Project Overview
 
 This project showcases an end-to-end DevOps workflow using AWS Free Tier services. A Flask web application is deployed on an Amazon EC2 instance using Gunicorn and Nginx, automated through GitHub Actions CI/CD, monitored with Amazon CloudWatch, backed up to Amazon S3, and performance tested using k6.
 
 ---
 
-## ??? Architecture
+##  Architecture
 
 ```
 Developer
-    ³
+    Â³
     GitHub Repository
-    ³
+    Â³
     GitHub Actions (CI/CD)
-    ³
+    Â³
     Amazon EC2 (Ubuntu)
-    ³
- ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
- ³     Nginx     ³
- ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
-        ³
+    Â³
+ ÃšÃ„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Â¿
+ Â³     Nginx     Â³
+ Ã€Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã™
+        Â³
            Gunicorn Server
-        ³
+        Â³
          Flask Web Application
-        ³
- ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
- ³ CloudWatch    ³
- ³ Logs & Metrics³
- ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
-        ³
+        Â³
+ ÃšÃ„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Â¿
+ Â³ CloudWatch    Â³
+ Â³ Logs & MetricsÂ³
+ Ã€Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã™
+        Â³
          Amazon S3 (Backups)
 ```
 
 ---
 
-## ?? Technologies Used
+##  Technologies Used
 
 - AWS EC2
 - Amazon S3
@@ -55,7 +55,7 @@ Developer
 
 ---
 
-## ? Features
+##  Features
 
 - Flask web application deployment on AWS EC2
 - Reverse proxy configuration using Nginx
@@ -69,30 +69,30 @@ Developer
 
 ---
 
-## ?? Project Structure
+##  Project Structure
 
 ```
 devops-aws/
-³
-ÃÄÄ .github/
-³   ÀÄÄ workflows/
-³       ÀÄÄ deploy.yml
-³
-ÃÄÄ app/
-³   ÃÄÄ app.py
-³   ÃÄÄ requirements.txt
-³   ÃÄÄ templates/
-³   ³   ÀÄÄ index.html
-³   ÀÄÄ venv/
-³
-ÃÄÄ loadtest.js
-ÃÄÄ README.md
-ÀÄÄ .gitignore
+Â³
+ÃƒÃ„Ã„ .github/
+Â³   Ã€Ã„Ã„ workflows/
+Â³       Ã€Ã„Ã„ deploy.yml
+Â³
+ÃƒÃ„Ã„ app/
+Â³   ÃƒÃ„Ã„ app.py
+Â³   ÃƒÃ„Ã„ requirements.txt
+Â³   ÃƒÃ„Ã„ templates/
+Â³   Â³   Ã€Ã„Ã„ index.html
+Â³   Ã€Ã„Ã„ venv/
+Â³
+ÃƒÃ„Ã„ loadtest.js
+ÃƒÃ„Ã„ README.md
+Ã€Ã„Ã„ .gitignore
 ```
 
 ---
 
-## ?? Application Endpoints
+##  Application Endpoints
 
 | Endpoint | Description |
 |----------|-------------|
@@ -103,7 +103,7 @@ devops-aws/
 
 ---
 
-## ?? CI/CD Workflow
+##  CI/CD Workflow
 
 The deployment pipeline is triggered automatically whenever code is pushed to the **main** branch.
 
@@ -119,7 +119,7 @@ Workflow Steps:
 
 ---
 
-## ?? Monitoring
+##  Monitoring
 
 Amazon CloudWatch is configured to monitor:
 
@@ -137,7 +137,7 @@ Additional features:
 
 ---
 
-## ?? S3 Backup
+##  S3 Backup
 
 Amazon S3 is used for application backup.
 
@@ -155,7 +155,7 @@ Features:
 
 ---
 
-## ?? Security
+##  Security
 
 - IAM Role attached to EC2
 - Least Privilege Access
@@ -166,7 +166,7 @@ Features:
 
 ---
 
-## ?? Load Testing Results
+##  Load Testing Results
 
 Tool Used:
 
@@ -193,7 +193,7 @@ Results:
 
 ---
 
-## ?? Screenshots
+##  Screenshots
 
 Screenshots of the following components are included in the project report:
 
@@ -209,7 +209,7 @@ Screenshots of the following components are included in the project report:
 
 ---
 
-## ?? Future Improvements
+##  Future Improvements
 
 - HTTPS using SSL/TLS
 - Application Load Balancer
@@ -223,7 +223,7 @@ Screenshots of the following components are included in the project report:
 
 ---
 
-## ????? Author
+##  Author
 
 **Aryen Garg**
 
@@ -237,6 +237,6 @@ https://github.com/AryenSGarg/devops-aws
 
 ---
 
-## ?? License
+##  License
 
 This project was developed for educational and learning purposes as part of a DevOps technical assignment.
